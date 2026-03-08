@@ -5,6 +5,25 @@ import PixelButton from "@/components/PixelButton";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+const iconStyle = {
+  width: "1.2rem",
+  height: "1.2rem",
+  display: "inline-block",
+  verticalAlign: "middle",
+  marginRight: "4px",
+  marginTop: "-2px"
+};
+
+const iconStyleInfosys = {
+  width: "2rem",
+  height: "2rem",
+  display: "inline-block",
+  verticalAlign: "middle",
+  marginRight: "4px",
+  marginTop: "-2px"
+};
+
+
 const socialLinks = [
   {
     href: "/resume.pdf",
@@ -121,11 +140,22 @@ export default function Home() {
                 fontSize: "1.05rem",
                 lineHeight: 1.7,
                 color: "var(--foreground)",
+                fontFamily: 'var(--font-space), monospace',
                 marginBottom: "1.25rem",
               }}
             >
               Hi there! I'm a
-              <strong> Data & AI Engineer</strong> currently working at <strong>Google</strong>, where I focus on building Agentic AI systems and
+              <strong> Data & AI Engineer</strong> currently working at {" "}
+              <a
+                href="https://about.google/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <strong>
+                  <img src="/google.png" alt="Google" style={iconStyle} />
+                </strong>
+              </a>, where I focus on building Agentic AI systems and
               scalable data solutions for Google&apos;s Consumer Hardware products.
             </p>
             <p
@@ -133,11 +163,33 @@ export default function Home() {
                 fontSize: "1.05rem",
                 lineHeight: 1.7,
                 color: "var(--foreground)",
+                fontFamily: 'var(--font-space), monospace',
                 marginBottom: "2rem",
               }}
             >
-              I have previously worked at <strong>Mercedes-Benz R&D</strong>, where I built scalable data platforms, GenAI applications and traditional ML solutions for 15M+ production vehicles.
-              Prior to that, I was at <strong>Infosys</strong>, where I worked with Microsoft on Azure data solutions.
+              I have previously worked at <a> </a>
+              <a
+                href="https://group.mercedes-benz.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <strong>
+                  <img src="/mercedes.png" alt="Mercedes-Benz" style={iconStyle} />
+                </strong>
+              </a>, where I built scalable data platforms, GenAI applications and traditional ML solutions for 15M+ production vehicles.
+              Prior to that, I was at <a> </a>
+              <a
+                href="https://www.infosys.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <strong>
+                  <img src="/infosys.png" alt="Infosys" style={iconStyleInfosys} />
+
+                </strong>
+              </a>, where I worked with Microsoft on Azure data solutions.
               I'm passionate about <strong>Agentic AI</strong> engineering, with a strong background in Python, SQL, Azure, GCP and big data technologies like Apache Spark.
               I thrive on designing scalable products, automating processes, and tackling complex problems with creativity.
             </p>

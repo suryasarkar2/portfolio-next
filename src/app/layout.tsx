@@ -4,7 +4,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import DotMatrixCursor from "@/components/DotMatrixCursor";
-
+// src/app/layout.tsx
 
 const inter = Inter({
   variable: "--font-inter",

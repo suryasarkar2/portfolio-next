@@ -36,7 +36,7 @@ const workExperiences = [
         startDate: "Sep 2024",
         endDate: "Present",
         achievements: [
-            "Optimizing supply chains for Pixel devices.",
+            "Optimizing supply chain for Pixel and other Consumer Hardware devices.",
             "Built LLM-based SQL Optimizer using Google ADK, reducing runtime by 45% and cut BigQuery slot-cost by 30%.",
             "Architected data warehouse in BigQuery and Google internal engine (10+ TB/day) for reporting, forecasting and analytics, reduced query latency by 38% via clustering and partitioning with no storage growth.",
         ],
