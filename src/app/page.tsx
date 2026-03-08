@@ -192,6 +192,17 @@ export default function Home() {
               </a>, where I worked with Microsoft on Azure data solutions.
               I'm passionate about <strong>Agentic AI</strong> engineering, with a strong background in Python, SQL, Azure, GCP and big data technologies like Apache Spark.
               I thrive on designing scalable products, automating processes, and tackling complex problems with creativity.
+              I am also currently pursuing a Master's in Computer Science at <a> </a>
+              <a
+                href="https://www.gatech.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <strong>
+                  <img src="/gtech.png" alt="Mercedes-Benz" style={iconStyleInfosys} />
+                </strong>
+              </a>
             </p>
           </motion.div>
 
